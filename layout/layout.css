@@ -1,0 +1,20 @@
+#logo{
+    text-align: right;
+}
+
+.cont{
+    display: inline-flex;                    
+}
+#para1{
+    margin-left: 10px;
+}
+#para2{
+    display: inline-flex;
+}
+#con1, #con2, #con3{
+    padding-left: 5px;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-top-style: ridge;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

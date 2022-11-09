@@ -1,0 +1,9 @@
+*{
+box-sizing: border-box;
+}
+.cont{
+    border: 1px solid black;
+    height: 200px;
+    text-align: center;
+    padding-top: 75px;
+}

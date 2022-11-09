@@ -1,0 +1,68 @@
+.cont{
+  background: linear-gradient(to right, rgb(210, 88, 109),purple)
+}
+.border{
+  padding: 10px;
+  background-color: rgb(238, 191, 23);
+}
+.grid{
+  display: grid;
+  text-align: center;
+  padding: 10px;
+  gap: 10px;
+}
+.top{
+  grid-template-columns: auto auto auto auto auto;
+} 
+.img{
+  background-image: url(./food1.jpg);
+  position: relative;
+  border: 1px solid black;
+  height: 500px;
+  width: 1000px;
+}
+.hd
+{
+  position: absolute;
+  background-color: rgb(238, 191, 23);
+  font-size: 40px;
+  padding: 5px;
+  top: 150px;
+  left: 20px;
+}
+.hd1{
+  position: absolute;
+  background-color: rgb(238, 191, 23);
+  font-size: 15px;
+  padding: 5px;
+  top: 220px;
+  left: 20px;
+  
+}
+.center{
+  gap: 35px;
+  border: 1px solid black;
+}
+/*.img img{
+  height: 500px;
+  width: 100%;
+}*/
+.rate1, .rate{
+  width: 250px;
+  border: 1px solid black;
+}
+.img{grid-area: left;}
+.rate{grid-area: right;}
+.rate1{grid-area: right1;}
+.center{
+  grid-template-areas: 
+  'left  right right'
+  'left right1 right1';
+}
+.bottom{
+  grid-template-columns: auto auto auto auto;
+}
+.color{
+  background-color: aliceblue;
+  height: 150px;
+}

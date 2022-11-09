@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application form</title>
+        <link rel="stylesheet" href="formstyle.css">
+    
+    </head>
+    <body>
+        <form>
+        <h3>Application Form Design</h3>
+        
+        <fieldset>
+            <legend><h4>Personal Details</h4></legend>
+            <div class="form">
+            <label>Name</label>
+            <input type="text" id="f1" placeholder="Enter your Name">
+            <br><br>
+            <label> Address</label>
+            <input type="text" id="f1" placeholder="Enter your Address">
+            <br><br>
+            <label> Email</label>
+            <input type="text" id="f1" placeholder="Enter your Email">
+            <br><br>
+            <label>Mobile</label>
+            <input type="number" id="f1" placeholder="Enter your Number"><br><br>
+            <label>IQ</label>
+            <input type="number" id="f1" placeholder="Enter IQ here"><br><br>
+            </div>
+            <div class="option"></div>
+            <label><b><u>Gender</u></b></label><br><br>
+            <input type="radio" value="Male" name="Gender">Male<br>
+            <input type="radio" value="Female" name="Gender">Female<br>
+            <input type="radio" value="Other" name="Gender">Other<br><br>
+            </div>
+            <div class="date"></div>
+            <label>Date of Proposed Outing</label>
+            <input type="date">
+        </div>
+            
+        </fieldset>
+        
+        
+        <fieldset>
+            <div class="drop">
+            <label><b><u>Check all that Apply</u></b></label><br><br>
+            <input type="checkbox">I have tattoos and or piercing<br>
+            <input type="checkbox">I am more than 2 years older than my daughter<br>
+            <input type="checkbox">I own a panel van or v8 ute<br>
+            <input type="checkbox">I work full time<br>
+            <input type="checkbox">My parents are rich<br>
+            <input type="checkbox">Is the date at the well lit public location<br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="select">
+            <label>Political Persuasion</label>
+            <select>
+                <option  selected hidden>Select an Option</option>
+                <option>Left Wing</option>
+                <option>Right wing</option>
+            </select>
+            &nbsp;&nbsp;
+            <label> Education level completed</label>
+            <select>
+                <option selected hidden>Select an option</option>
+                <option>HSC</option>
+                <option>University</option>
+            </select>
+            </div>
+        </fieldset>
+        <fieldset>
+
+            <legend><b>Essay Section</b></legend>
+            <label>In 50 words or more explain why?</label><br><br>
+            <textarea rows="3" cols="50" placeholder="Enter Text here"></textarea><br><br>
+            <label>Please upload contact details</label><br><br>
+            <textarea rows="3" cols="50" placeholder="Enter Text here"></textarea><br><br>
+            Upload Policy certificates and bank statements here
+            <input type="button" id="button1" value="Attach files">
+        </fieldset><br>
+        </form>
+        <input type="submit" id="button" value="Send your Application">
+
+    </body>
+</html>

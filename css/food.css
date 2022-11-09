@@ -1,0 +1,82 @@
+.header{
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: teal;
+    color: white;
+}
+ #head1{
+    width: fit-content;
+    position: relative;
+    top: 12px;
+    left: 20%;
+    font-size: 20px;
+}
+.cart{
+    font-size: 20px;
+    position: absolute;
+    right: 25%; 
+    top: 15px; 
+}
+.img1{
+    background-image: url("./food1.jpg");
+    background-repeat: repeat;
+    height: 300px;
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: black;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px yellow;
+}
+.sub{
+    position: absolute;
+    top: 58%;
+    left: 41%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.list{
+    background-color: teal;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 140px;
+    background-color: teal;
+    
+
+  }
+  li { 
+    float: left;
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+a:hover{
+    background-color: rgb(31, 112, 112);
+}
+.category{
+    height: 70px;
+    background-color: rgb(255, 193, 35);
+    text-align: center;
+    font-family: cursive;
+    font-size: 45px;
+    color: teal;
+    text-shadow: 2px 1px 2px white;
+}
+
+
+
+

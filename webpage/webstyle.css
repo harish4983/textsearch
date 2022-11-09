@@ -1,0 +1,111 @@
+
+#body1{
+    color: antiquewhite;
+    background-color: rgb(12, 22, 27);
+    height: 400px;
+    width: 100%;    
+}
+#link{
+        
+    margin-top: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+a{
+    
+    color: antiquewhite;
+    text-decoration: none;
+    padding-left: 20px;
+}
+a:hover{
+    color: blue;
+}
+#header{
+    display: inline-flex;
+    height: 10px;
+}
+#sl{   
+    margin-top: 10px;
+    margin-left: 500px;
+    display: inline;
+    height: fit-content;
+    width: fit-content;
+}
+#head{
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+}
+#shead{
+    text-align: right;
+}
+#para
+{
+    margin-top: 70px;
+}
+.pstyle{
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+}
+.pstyle1{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align-last: center;
+    line-height: 30px;
+}
+.button{
+    margin-left: 44%;
+}
+.btn{
+    border-color: white;
+    border-radius: 7px;
+    padding: 13px;
+    color: white;
+    font-size: small;
+    background-color:  rgb(12, 22, 27);
+}
+.btn:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.cont{
+    display: inline-flex;
+    margin-left: 90px;
+}
+.cont1
+{
+    width: 300px;
+    padding: 40px;
+    text-align: justify;
+    font-family: calibri;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+h5,h3{
+    font-family: Times New Roman;
+    color: gray;
+}
+.foot{
+    background-color: rgb(12, 22, 27);
+    height: 80px;
+    width: 100%;
+}
+
+#icon{
+    position: absolute;
+    left: 10%;
+    margin-top: 65px;
+    color: white;
+    font-size: 10px;
+}
+#foot1{
+    position: absolute;
+    right: 8%;
+    margin-top: 60px;
+    font-size: 15px;
+}

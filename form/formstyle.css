@@ -1,0 +1,27 @@
+fieldset{
+  border-radius: 30px;
+    width: 75%;
+}
+form{
+ background: linear-gradient( turquoise, green, yellow);
+ border-radius: 10px;
+ font-size: large;
+}
+
+label{
+ width: 200px;
+ display: inline-block;
+  }
+
+#button{
+ background-color: red;
+ margin-left: 50%;
+}
+#button1{
+ background-color: red;
+}
+
+div.select{
+
+ font-size: large;
+}

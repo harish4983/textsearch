@@ -1,0 +1,13 @@
+.cont{
+    border: 1px solid black;
+    height: fit-content;
+    width: 500px;
+    text-align: center;
+    padding: 0px 10px 20px 0px;
+    border-radius: 5px;
+    margin: 230px 0px 0px 400px;
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}

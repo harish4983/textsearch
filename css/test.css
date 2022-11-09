@@ -1,0 +1,43 @@
+.header{
+    display:flex;
+}
+.toogle{
+    margin-left: 700px;
+}
+.toogle div{
+    display:inline-flex;
+    position: relative; 
+    top: 45px;
+}
+.top-nav{
+    background-color: gray;
+    overflow: hidden ;
+}
+.nav a{
+    float: left;
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    color: black;
+}
+.nav a:hover{
+    background-color: rgb(84, 83, 83);
+}
+table{
+width: 100%;
+border-spacing: 5px;    
+text-align: center;
+line-height: 1.5;
+}
+td{
+    padding: 20px;
+    border: 1px solid black;
+}
+#col{
+    background-color: rgb(177, 245, 245);
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: rgb(200, 195, 195);
+}

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.cont{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 5px;
+    border: 1px solid black;    
+}
+.cont > div{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.img{
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+.rate{
+    grid-row: 2/3;
+    grid-column: 4/6;
+}
+.rate1{
+    grid-row: 3/4;
+    grid-column: 4/6;
+}

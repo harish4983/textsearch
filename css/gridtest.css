@@ -1,0 +1,33 @@
+*{
+    font-size: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 70% auto;
+    border: 1px solid black;
+
+    gap: 10px;
+    padding: 10px;
+}
+.img{
+    
+    /* border: 2px solid blue;*/
+}
+img{
+   /* border: 2px solid green;*/
+    width: 100%;
+    height: ;
+}
+.top, .bot{
+    border: 1px solid black;
+
+}
+
+
+.right
+{
+    display: grid;
+    grid-template-rows: 50% 50%;
+     row-gap: 10px;
+}

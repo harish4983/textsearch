@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.cont{
+    background-color: white;
+    border: 1px solid black;
+    height: fit-content;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 200px 400px;
+    border-radius: 20px;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+#tip{
+    color:red;
+    font-weight: bold;
+}
+#total{
+    font-weight: bolder;
+}

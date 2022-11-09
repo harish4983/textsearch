@@ -1,0 +1,21 @@
+.logo{
+    text-align: right;
+}
+.float img{
+    float: left;
+}
+.text{
+   position: relative;
+   top: 40px;
+   left: 10px;
+}
+.cont{
+    margin-top: 5px;
+    display: inline-flex;
+}
+#con1, #con2, #con3{
+    padding-left: 10px;
+    border-top-style: ridge;
+    border-left-style: ridge;
+    border-right-style: ridge;
+}
