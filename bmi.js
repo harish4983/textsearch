@@ -8,7 +8,7 @@ console.log(height1);
 let mass2=document.getElementById("john").value;
 console.log(mass2);
 let heignkjlht2=document.getElementById("john1").value;
-console.log(height2);
+console.log(height2); B 
 
 let marks=mass1/(height1*height1);
 let marks1=Math.ceil(marks);
