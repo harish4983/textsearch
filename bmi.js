@@ -7,7 +7,7 @@ console.log(height1);
 
 let mass2=document.getElementById("john").value;
 console.log(mass2);
-let height2=document.getElementById("john1").value;
+let heignkjlht2=document.getElementById("john1").value;
 console.log(height2);
 
 let marks=mass1/(height1*height1);
